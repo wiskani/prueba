@@ -19,11 +19,15 @@
       --md: 16px;
       --lg: 18px;
     }
-    body {
+    body{
       margin: 0;
       font-family: 'Quicksand', sans-serif;
     }
     .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100vh;
       padding: 24px;
     }
     .mobile-menu a {
@@ -78,26 +82,24 @@
         <a href="/">Other</a>
       </li>
     </ul>
-    <div class="secondary-container">
-      <ul>
-        <li>
-          <a href="/">My orders</a>
-        </li>
-        <li>
-          <a href="/">My account</a>
-        </li>
-      </ul>
-  
-      <ul>
-        <li>
-          <a href="/" class="email">platzi@example.com</a>
-        </li>
-        <li>
-          <a href="/" class="sign-out">Sign out</a>
-        </li>
-      </ul>
-    </div>
-   
+
+    <ul>
+      <li>
+        <a href="/">My orders</a>
+      </li>
+      <li>
+        <a href="/">My account</a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <a href="/" class="email">platzi@example.com</a>
+      </li>
+      <li>
+        <a href="/" class="sign-out">Sign out</a>
+      </li>
+    </ul>
   </div>
 </body>
 </html>
