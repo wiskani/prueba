@@ -16,6 +16,7 @@
         body{
             margin: 0;
             font-family: 'Montserrat', sans-serif;
+            background-color: var(--blue);
         }
         .login{
             width: 100%;
@@ -28,11 +29,31 @@
             grid-template-rows: auto 1fr auto;
             width: 300px;
         }
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        .input-container{
+            width: 100%;
+            margin-bottom: 10px;
+            
+        }
     </style>
 </head>
 <body>
     <div class="login">
-        <div class="form-container"></div>
+        <div class="form-container">
+            <form action="/" class="form">
+                    <div class="input-container">
+                        <input type="text" id="email" placeholder="CORREO ELECTRÓNICO" class="input input-email">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="password" placeholder="PASSWORD" class="input input-password">
+                    </div>
+                    <button class="login-button">LOGIN</button>
+                    <a href="/">Olvidaste tu contraseña</a>
+            </form>
+        </div>
     </div>
     
 </body>
