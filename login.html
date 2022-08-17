@@ -12,6 +12,7 @@
         :root{
             --blue:#031F73;
             --yellow: #F2B705;
+            --sm: 14px;
         }
         body{
             margin: 0;
@@ -35,8 +36,27 @@
         }
         .input-container{
             width: 100%;
+            height: 45px;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
             margin-bottom: 10px;
-            
+        }
+        .input-field{
+            width:100%;
+            height:100%;
+            text-align:left;
+            background-color: transparent;
+            border: none;
+            font-size: var(--sm);
+        }
+        .input-field::placeholder{
+            color: #ffffff;
+        }
+        .icon-mail{
+            background: url(./icons/user.svg) no-repeat;
+            margin-right:20px;
+            padding: 10px;
+            min-width: 20px;
         }
     </style>
 </head>
@@ -45,10 +65,11 @@
         <div class="form-container">
             <form action="/" class="form">
                     <div class="input-container">
-                        <input type="text" id="email" placeholder="CORREO ELECTRÓNICO" class="input input-email">
+                        <i class="icon-mail"></i>
+                        <input type="text" id="email" placeholder="CORREO ELECTRÓNICO" class="input-field">
                     </div>
                     <div class="input-container">
-                        <input type="text" id="password" placeholder="PASSWORD" class="input input-password">
+                        <input type="text" id="password" placeholder="PASSWORD" class="input-field">
                     </div>
                     <button class="login-button">LOGIN</button>
                     <a href="/">Olvidaste tu contraseña</a>
