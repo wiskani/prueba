@@ -18,28 +18,36 @@
 			margin: 0;
 			font-family: 'Montserrat', sans-serif;
 		}
-		nav{
+		.header{
 			display: flex;
 			padding: 29px;
 			justify-content: space-between;
 			border-bottom: 2px solid var(--blue);
 		}
-		h1{
+		.title_name{
 			font-size: 30px; 
 			margin: 0;
 		}
-		h2{
+		.name_admin{
+			font-size:20px;	
 			margin:0;
+		}
+		.left{
+			display: inline;
+		}
+		.right{
+			display: inline;
 		}
 	</style>
 </head>
 <body>
-<nav>
-	<div class="navbar-left">
-		<h1>Áreas</h1>
+<div class="header">
+	<div class="left">
+		<p class="title_name">Áreas</p>
 	</div>
-	<div class="navbar-right">
-		<h2>NOMBRE DE ADMINISTRADOR</h2>
+	<div class="right">
+		<p class="name_admin">NOMBRE DE ADMINISTRADOR</p>
+		<img src="./icons/user.svg" alt="">
 	</div>
 </nav>
 </body>
