@@ -11,6 +11,7 @@
 			--blue:#031F73;
       --yellow: #F2B705;
 			--gray:#F2F2F2;
+      --lg: 16px;
       --sm: 14px;
       --s: 12px;
 		}
@@ -18,7 +19,18 @@
 			margin: 0;
 			font-family: 'Montserrat', sans-serif;
 		}
-
+    .styled-table {
+        border-collapse: collapse;
+        margin: 50px;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        background-color: white;
+    }
+    .styled-table thead tr {
+    color: var(--blue);
+    text-align: center;
+    font-size: var(--lg);
+    }
   </style>
 </head>
 <body>
