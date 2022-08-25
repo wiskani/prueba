@@ -9,28 +9,41 @@
   <style>
 		:root{
 			--blue:#031F73;
-      --yellow: #F2B705;
+            --yellow: #F2B705;
 			--gray:#F2F2F2;
-      --lg: 16px;
-      --sm: 14px;
-      --s: 12px;
+            --lg: 16px;
+            --sm: 14px;
+            --s: 12px;
 		}
 		body{
 			margin: 0;
 			font-family: 'Montserrat', sans-serif;
 		}
-    .styled-table {
-        border-collapse: collapse;
-        margin: 50px;
-        min-width: 400px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        background-color: white;
-    }
-    .styled-table thead tr {
-    color: var(--blue);
-    text-align: center;
-    font-size: var(--lg);
-    }
+        .styled-table {
+            border-collapse: collapse;
+            margin: 50px;
+            min-width: 700px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            background-color: white;
+        }
+        .styled-table thead tr {
+            color: var(--blue);
+            text-align: center;
+            font-size: var(--lg);
+            border-bottom: 1px solid gray;
+        }
+        .styled-table th,
+        .styled-table td{
+            padding: 30px 10px 30px 10px;
+            font-size: var(--sm);
+        }
+        .column-icon{
+            text-align: center;
+        }
+        .styled-table img{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
   </style>
 </head>
 <body>
@@ -43,85 +56,86 @@
             <th>Administrar personal</th>
         </tr>
     </thead>
-    <tbody>
+<tbody>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
         <tr>
             <td>Almacenes</td>
             <td>Se incluyen almacenes de aceites, líneas y subestaciones</td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon edit.svg" alt="">
                 <img src="./icons/icon garbage.svg" alt="">
             </td>
-            <td>
+            <td class="column-icon">
                 <img src="./icons/icon personal.svg" alt="">
             </td>
         </tr>
-    </tbody>
+        
+</tbody>
 </table>
 </body>
 </html>
