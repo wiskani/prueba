@@ -24,30 +24,35 @@
 			justify-content: space-between;
 			border-bottom: 2px solid var(--blue);
 		}
-		.title_name{
+		.left{
+			display: flex;
+			justify-content: center;
+		}
+		.right{
+			display: flex;
+			justify-content: center;
+		}
+		.left p{
 			font-size: 30px; 
 			margin: 0;
 		}
-		.name_admin{
+		.right p{
 			font-size:20px;	
 			margin:0;
 		}
-		.left{
-			display: inline;
-		}
-		.right{
-			display: inline;
+		.right img{
+			margin-left:20px;
 		}
 	</style>
 </head>
 <body>
 <div class="header">
 	<div class="left">
-		<p class="title_name">Áreas</p>
+		<p>Áreas</p>
 	</div>
 	<div class="right">
-		<p class="name_admin">NOMBRE DE ADMINISTRADOR</p>
-		<img src="./icons/user.svg" alt="">
+		<p>NOMBRE DE ADMINISTRADOR</p>
+		<img src="./icons/admin.svg" alt="">
 	</div>
 </nav>
 </body>
